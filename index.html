@@ -1,81 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8"> 
+        <meta charset="UTF-8">
         <title>My first Webpage</title>
         <link rel="stylesheet" href="styles.css">
-        <link href="https://googleapis.com" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="header">
+        <header class="site-header">
+            <nav class="navbar">
+                <p class="logo">Header logo</p>
+                <div class="nav-links">
+                    <p>Header link one</p>
+                    <p>Header Link two</p>
+                    <p>Header Link three</p>
+                </div>
+            </nav>
 
-            <div class="top">
-                <div class="leftTop">
-            <p>Header logo</p>
+            <div class="hero-section">
+                <div class="hero-text">
+                    <p class="hero-title">Philip fan page</p>
+                    <p class="hero-subtitle">This website is the offcial fan page of philip the cat. He is a 4 year old tabby cat
+                        who enjoys eating very much. He brings joy and comfort to his family and is very well loved.
+                    </p>
+                    <a href="#" class="button">Sign Up!</a>
+                </div>
+                <img src="photos/sleepingPhilip.jpeg" height="300" width="300">
             </div>
-            <div class="right">
-            <p>Header link one</p>
-            <p>Header Link two</p>
-            <p>Header Link three</p>
+        </header>
+
+        <section class="gallery-section">
+            <p class="section-title">Some of Philip's best photos</p>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="photo-frame"><img src="photos/cutePhilip.jpeg"></div>
+                    <p>This is philip just chilling.</p>
+                </div>
+                <div class="card">
+                    <div class="photo-frame"><img src="photos/evilPhilip.jpeg"></div>
+                    <p>This is evil philip he will get you if he gets the chance</p>
+                </div>
+                <div class="card">
+                    <div class="photo-frame"><img src="photos/largePhilip.jpeg"></div>
+                    <p>Philip looks rather large in this photo</p>
+                </div>
+                <div class="card">
+                    <div class="photo-frame"><img src="photos/chainPhilp.jpeg"></div>
+                    <p>Philip got a chain in this one</p>
+                </div>
             </div>
-            </div>
+        </section>
 
-            <div class="bot">
-                <div class="container">
-            <p class="hero">Philip fan page</p>
-            <p class="sub">This website is the offcial fan page of philip the cat. He is a 4 year old tabby cat
-                who enjoys eating very much. He brings joy and comfort to his family and is very well loved.
-
-            </p>
-            <p class="button">Sign Up!</p>
-            </div>
-            <img src="photos/sleepingPhilip.jpeg" height="300" width="300">
-            </div>
-        </div>
-
-<div class="midSec">
-    <p class="title">Some of Philip's best photos</p>
-
-    <div class="cards">
-        <div class="card">
-            <div class="box"><img src="photos/cutePhilip.jpeg"></div>
-            <p>This is philip just chilling.</p>
-        </div>
-
-        <div class="card">
-            <div class="box"><img src="photos/evilPhilip.jpeg"></div>
-            <p>This is evil philip he will get you if he gets the chance</p>
-        </div>
-
-        <div class="card">
-            <div class="box"><img src="photos/largePhilip.jpeg"></div>
-            <p>Philip looks rather large in this photo</p>
-        </div>
-
-        <div class="card">
-            <div class="box"><img src="photos/chainPhilp.jpeg"></div>
-            <p>Philip got a chain in this one</p>
-        </div>
-    </div>
-</div>
-    
-        <div class="thirdLevel">
+        <section class="quote-section">
             <p>Meow Meow Meow</p>
             <p>-Philip the great</p>
-        </div>
+        </section>
 
-        <div class="fourthLevel">
-            <div class="container">
+        <section class="cta-section">
+            <div class="cta-content">
                 <p>Call to action!</p>
                 <p>Sign up to join Philips amazing fan club</p>
-            <p class="button">Sign Up!</p>
+                <a href="#" class="button">Sign Up!</a>
             </div>
-        </div>
+        </section>
 
-        <div class="footer">
+        <footer class="site-footer">
             <p>Copyright @ The Odin Project 2021</p>
-        </div>
-
+        </footer>
     </body>
 </html>
