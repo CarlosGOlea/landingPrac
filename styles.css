@@ -93,7 +93,7 @@ img {
 /* ---------- Quote ---------- */
 .quote-section {
     background-color: #E5E7EB;
-    height: 250px; /* set this to your original height */
+    height: 400px; /* set this to your original height */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,10 +103,31 @@ img {
 .quote-text{
     font-size: 36px;
     max-width: 700px;
+    font-style: italic;
+}
+
+.quote-author{
+    padding-left: 500px;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .quote-section p {
     margin: 4px 0;
+}
+/* ---------- Call to action section ---------- */
+.cta-section{
+    display: flex;
+    justify-content: center;
+}
+
+.cta-content{
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 /* ---------- Footer ---------- */
