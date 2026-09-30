@@ -33,8 +33,7 @@ body {
     gap: 40px;
 }
 
-.hero-text,
-.cta-content {
+.hero-text {
     max-width: 400px;
 }
 
@@ -119,19 +118,48 @@ img {
 .cta-section{
     display: flex;
     justify-content: center;
+    height: 300px;
+    color: white;
+}
+
+.cta-text{
+    font-size: 18px;
+}
+.top-text{
+    font-weight: 900;
+}
+
+.top-text,
+.bottom-text {
+    margin: 4px 0;
 }
 
 .cta-content{
     display: flex;
     background-color: #3882F6;
-    margin: 50px;
+    margin: 80px;
     padding: 20px;
-    padding-left: 300px;
-    padding-right: 300px;
+    align-items: center;
+    gap: 20px;
+    width: 900px;
+    justify-content: space-around;
+    border-radius: 15px;
+
+}
+
+.buttonTwo{
+    display: inline-block;
+    background-color: #3882F6;
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: 3px solid white;
 }
 
 /* ---------- Footer ---------- */
 .site-footer {
     background-color: #1F2937;
     color: #fff;
+    text-align: center;
 }
